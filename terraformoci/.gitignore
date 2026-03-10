@@ -1,0 +1,11 @@
+providers.tf
+terraform/modules/ec2-modules/wtf-key
+# Terraform files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+terraform.tfplan
+
+# Optional local overrides
+*.tfvars
